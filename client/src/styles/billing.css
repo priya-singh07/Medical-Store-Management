@@ -1,0 +1,11 @@
+.grid {
+    width: 100%;
+    display: flex;
+    align-content: space-around;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+.container {
+    margin-top: 20px;
+}

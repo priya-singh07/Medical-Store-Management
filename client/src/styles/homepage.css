@@ -1,0 +1,16 @@
+@keyframes scroll {
+    from {
+        transform: translate(0%,0)
+    }
+
+    to {
+       transform: translate(-100%,0)
+    }
+}
+
+.resultMarquee {
+    animation: scroll 30s linear 0s infinite;
+    position: absolute;
+    width: 100%;
+    overflow: hidden;
+}

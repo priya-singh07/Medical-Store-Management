@@ -1,0 +1,108 @@
+.whole {
+    min-height: 100vh;
+}
+.card-container{
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    flex-direction: row;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.cards{
+    text-align: center;
+    width: 400px;
+    background-color: white;
+    color: #3f51b5;
+    margin: 20px;
+    padding: 30px 50px 50px 50px;
+    cursor: pointer;
+    border-radius: 10px;
+    position: relative;
+    min-height: 200px;
+    box-shadow: 2px 5px 16px 0 grey;
+    transition: all 0.5s ease;
+}
+
+.cards:hover{
+    transform: scale(1.050);
+}
+
+.cards h1{
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.cards p{
+    color: grey;
+}
+
+.flex {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.heading {
+    font-weight: 700;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.link {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+@media only screen and (max-width:950px) {
+    .cards{
+        max-width: 300px;
+    }
+    .flex {
+        flex-direction: column;
+    }
+    
+}
+
+
+@media only screen and (max-width:550px) {
+    .cards{
+        max-width: 300px;
+        margin: 0;
+    }
+    .flex {
+        flex-direction: column;
+    }
+    
+}
+
+
+@media only screen and (max-width:350px) {
+    .cards{
+        max-width: 250px;
+        margin: 0;
+    }
+    .flex {
+        flex-direction: column;
+    }
+    
+}
+
+
+@media only screen and (max-width:250px) {
+    .cards{
+        max-width: 200px;
+        margin: 0;
+    }
+    
+    .flex {
+        flex-direction: column;
+    }
+}
