@@ -30,7 +30,7 @@ export default function Navbar(props) {
             <AppBar position="static">
                 <Toolbar>
                     <Link to='/dashboard' className={classes.grow}> 
-                    <Typography variant="h6" color="inherit" >
+                    <Typography variant="h6" color="inherit">
                         MEDICAL STORE
                     </Typography>
                     </Link>
