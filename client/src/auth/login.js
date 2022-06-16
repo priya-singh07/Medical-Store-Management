@@ -86,7 +86,7 @@ export default function Login() {
     <Grid container className="main">
       <div className="root" style={{boxShadow: "0px 1px 1px 1px solid #FFFFFF"}}>
         <Container maxWidth="xs">
-          <h2 style={{ marginTop: "20px", textAlign: "center", color: "#050A30" }}>Medical Store</h2>
+          <h2 style={{ marginTop: "20px", textAlign: "center", color: "black" }}>Medical Store</h2>
           <hr />
           <form id="loginform" onSubmit={handleSubmit}>
             <p

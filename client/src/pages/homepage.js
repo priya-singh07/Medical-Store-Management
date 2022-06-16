@@ -21,7 +21,7 @@ const HomePage = () => {
     };
 
     return (
-        <div style={{ backgroundColor: " #050A30", height: '100vh', width: '100%' }}>
+        <div style={{ backgroundColor: " #3f51b5", height: '100vh', width: '100%' }}>
             <div style={back_style}>
                 <span className="resultMarquee">
                     <h1 style={{ color: "white", fontFamily: "Arial", textAlign: 'left' }}>
